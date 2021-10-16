@@ -1,0 +1,109 @@
+/* Основной цвет текста #081F32 */
+/* Доп цвет текста #081F32 */
+/* Основной цвет фона #E5E5E5  */
+/* Акцент #1B75BB  */
+
+:root {
+  --main-color-text: #081f32;
+  --main-color-background: #e5e5e5;
+  --secondary-color-text: rgba(8, 31, 50, 0.7);
+}
+
+body {
+  background-color: var(--main-color-background);
+  color: var(--main-color-text);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-link a {
+  color: var(--secondary-color-text);
+}
+
+.nav-link a:hover,
+.nav-link a:focus {
+  color: #1b75bb;
+}
+
+.button {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #1b75bb;
+}
+
+.hero {
+  color: rgba(27, 117, 187, 0.8);
+}
+
+.hero-link {
+  color: #1b75bb;
+}
+
+.hero-p {
+  color: rgba(8, 31, 50, 0.8);
+}
+
+.hero-pp {
+  color: rgba(8, 31, 50, 0.6);
+}
+
+.price {
+  color: rgba(8, 31, 50, 0.8);
+}
+
+.client {
+  background-color: #1b75bb;
+  color: #ffffff;
+}
+
+/* Section client */
+
+.client-list-i {
+  opacity: 0.7;
+}
+
+.client-list-i:hover,
+.client-list-i:focus {
+  opacity: 1;
+}
+
+.client-list-ii {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.client-list-ii:hover,
+.client-list-ii:focus {
+  color: #1b75bb;
+}
+
+.client-list-p {
+  color: #081f32;
+  opacity: 0.6;
+}
+
+.client-list-p:hover,
+.client-list-p:focus {
+  color: #081f32;
+}
+
+.client-list-s {
+  color: #081f32;
+  opacity: 0.7;
+}
+
+.client-list-s:hover,
+.client-list-s:focus {
+  color: #081f32;
+  opacity: 0.9;
+}
+
+.client-list .change {
+  background-color: #1b75bb;
+}
