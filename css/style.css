@@ -65,12 +65,12 @@ ul {
 
 /* Section client */
 
-.client-list-i {
+.client-list {
   opacity: 0.7;
 }
 
-.client-list-i:hover,
-.client-list-i:focus {
+.client-list:hover,
+.client-list:focus {
   opacity: 1;
 }
 
@@ -106,4 +106,8 @@ ul {
 
 .client-list .change {
   background-color: #1b75bb;
+}
+
+.footer {
+  opacity: 0.7;
 }
